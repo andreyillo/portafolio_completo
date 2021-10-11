@@ -1,0 +1,26 @@
+pasos del portafolio:
+
+1.debe crear una carpeta que se llame andres_lozano y hay debe colocar todos los archivos del github en el repositorio
+
+2. ay hay una carpeta que se llama database  hay encontra el sql de las tablas con el cual trabaje en el crud
+
+3. hay una carpeta que se llama portafolio hay encontrara el index.php donde lo podra ver y ejecutar el poratfolio ademas encontarara en es misma carpeta
+portafolio encontrara otras carpetas que son el manual de usuario y software
+
+4.hay el portafolio encontrara una serie de enlaces tales como sobre mi,resumen,contactame,formulario y manual hay estara toda la parte creada y elaborada 
+sobre lo que estamos haciendo y una pequeña informacion personal sobre mi
+
+5. para ver el portafolio en el navegar debe colocar el siguiente enlace http://localhost/andres_lozano/portafolio/index.php
+
+6.para ver el manual de usuario es http://localhost/andres_lozano/portafolio/usuario/usuario.php
+
+7. para ver el manual de software http://localhost/andres_lozano/portafolio/software/software.php
+
+8. en la carpeta vista encontrara el crud especialñ mente un registro y la tabla el index1.php es donde econtarar el formulario de registro de vehiculos
+al parqueadero y el index.php es la tabla del crud donde mostrara las vehiculos registrados al parqueadero donde podra actualizar elimanr y leer los datos
+
+9.para ver el crud de formulario de registro http://localhost/andres_lozano/vista/index1.php
+
+10.para el crud de la tabla de os regsitrados donde podran elimar,actualizary leer http://localhost/andres_lozano/vista/index.php
+
+11. las carpeta modelo,controlador son la serie de codigo que hemos elaborado el crud para que funcione
