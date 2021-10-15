@@ -10,17 +10,19 @@ $vehiculos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 <head>
 	<title>Listado de vehiculos</title>
 	<meta charset="utf-8">
+	<link href="estilo/tabla.css" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<center>
 		
-		<h3>Lista de vehiculos registrados en el parqueaero</h3>
+		<h3>Listado De Vehiculos En El Parqueadero</h3>
 		<table>
 			<tr>
-				<td>num_matricula</td>
-				<td>marca</td>
-				<td>color</td>
-				<td>tipo</td>
+				<td>Numero De Matricula</td>
+				<td>Marca Del Vehiculo</td>
+				<td>Color Del Vehiculo</td>
+				<td>Tipo De Vehiculo</td>
 				<td>Editar</td>
 				<td>Eliminar</td>
 			</tr>
@@ -33,9 +35,11 @@ $vehiculos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 						<td><?php echo $dato->marca; ?></td>
 						<td><?php echo $dato->color; ?></td>
 						<td><?php echo $dato->tipo; ?></td>	
-						<td><a href="editar.php?num_matricula=<?php echo $dato->num_matricula; ?>">Editar</a></td>
-						<td><a href="eliminar.php?num_matricula=<?php echo $dato->num_matricula; ?>">Eliminar</a></td>
+						<td><a class="boton_editar" href="../controlador/editar.php?num_matricula=<?php echo $dato->num_matricula; ?>">Editar</a></td>
+						<td><a class="boton_eliminar" href="../controlador/eliminar.php?num_matricula=<?php echo $dato->num_matricula; ?>">Eliminar</a></td>
+						
 					</tr>
+					
 					
 					<?php
 				}
@@ -44,5 +48,11 @@ $vehiculos = $sentencia->fetchAll(PDO::FETCH_OBJ);
 		</table>
 		
 	</center>
+	<center>
+		<br>
+		<br>
+	<a href="../vista/index1.php">Formulario</a>
+	<a href="../portafolio/index.php">Portafolio</a>
+			</center>
 </body>
 </html>

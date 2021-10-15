@@ -19,38 +19,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Editar Alumno</title>
+	<title>Editar Vehiculo</title>
 	<meta charset="utf-8">
 </head>
 <body>
 	<center>
-		<h3>Editar Vehiculo:</h3>
-		<form method="POST" action="../editarProceso.php">
-			<table>
-				<tr>
-					<td>num_matricula: </td>
-					<td><input type="text" name="matricula" value="<?php echo $vehiculo->num_matricula; ?>"></td>
-				</tr>
-				<tr>
-					<td>marca: </td>
-					<td><input type="text" name="marca" value="<?php echo $vehiculo->marca; ?>"></td>
-				</tr>
-				<tr>
-					<td>color: </td>
-					<td><input type="text" name="color" value="<?php echo $vehiculo->color; ?>"></td>
-				</tr>
-				<tr>
-					<td>tipo: </td>
-					<td><input type="text" name="tipo" value="<?php echo $vehiculo->tipo; ?>"></td>
-				</tr>
+	<link rel="stylesheet" type="text/css" href="../vista/estilo/css.css">
+<body>
+<div class="container">
+	<section id="content">
+		<form method="POST" action="../modelo/editarProceso.php">
+			<h1>Actualiza Tu Vehiculo</h1>
+			<div>
+			<input type="text" name="matricula" value="<?php echo $vehiculo->num_matricula; ?>">
+			</div>
+			<div>
+			<input type="text" name="marca" value="<?php echo $vehiculo->marca; ?>">
+			</div>
+			<div>
+			<input type="text" name="color" value="<?php echo $vehiculo->color; ?>">
+			</div>
+			<div>
+			<input type="text" name="tipo" value="<?php echo $vehiculo->tipo; ?>">
+			</div>
+			<input type="hidden" name="oculto" value="1">
+			<div>
+				<input type="submit" value="EDITAR VEHICULO">
+				<a href="../vista/index.php">Volver</a>
+				<br>
+				<br>
 				
 				<tr>
 					<input type="hidden" name="oculto">
 					<input type="hidden" name="num" value="<?php echo $vehiculo->num_matricula; ?>">
-					<td colspan="2"><input type="submit" value="EDITAR VEHICULO"></td>
 				</tr>
-			</table>
-		</form>
+			</div>
+		</form><!-- form -->
+
+	</section><!-- content -->
+</div><!-- container -->
+</body>
+
 	</center>
 </body>
 </html>

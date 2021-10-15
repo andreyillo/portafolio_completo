@@ -27,6 +27,10 @@
                             <a href="#portfolio" class="link" data-filter="content-portfolio">Formulario</a> 
                         </li>
                         <li class="nav-li">
+                            <i class="fas fa-pencil-alt"></i>
+                            <a href="#java" class="link" data-filter="content-java">JavaScript</a> 
+                        </li>
+                        <li class="nav-li">
                             <i class="fab fa-stack-exchange"></i>
                             <a href="#blog" class="link" data-filter="content-blog">Manual</a> 
                         </li>
@@ -169,7 +173,7 @@
                                    Aqui encontraremos un pequeño formulario de lo que estamos desarrollando es este caso es un formualrio de
                                    registar vehiculos al parqueadero donde le pedira ciertas cosas al registrarse
                                    </p>
-                                   <a href="http://localhost/andres_lozano/vista/index1.php">&rarr; Ver Formulario</a>
+                                   <a href="../vista/index1.php">&rarr; Ver Formulario</a>
                                 </div>
                                 </div> 
                             </div>
@@ -184,14 +188,66 @@
                                     Aqui es donde podemos ver todos los registros de los vehiculos que han estado registrados en el parqueadero en cual podemos
                                     ver,eliminarlos y actualizar el vehiculo mediante el crud
                                    </p>
-                                   <a href="http://localhost/andres_lozano/vista/index.php">&rarr; Ver Crud</a>
+                                   <a href="../vista/index.php">&rarr; Ver Crud</a>
                                 </div>
                                 </div> 
                             </div>
                         </div>
                     </div>
-
-
+                    <!-- TRES TRABAJOS JAVSCRIPT-->
+        <div class="content content-java" id="java">
+                        <div class="content-header">
+                            <h2><span>Mi</span> JavaScript</h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="java">
+                                <div class="portfolio-item">
+                                   <img src="images/portfolio.png" alt=""> 
+                                   <p class="portfolio-title">
+                                     JavaScript De Clases
+                                   </p>
+                                   <p class="portfolio-desc">
+                                   En este caso en javascript elabora una clase y extenderlas es decir una herencia basada en mi proyecto que es parking_zone
+                                   utilizando metodos get y set ademas extanciarlos y tambien elborando su composicion.
+                                   </p>
+                                   <a href="https://github.com/andreyillo/resumen-poo/tree/master/Clases">&rarr; Ver Clases</a>
+                                </div>
+                                </div> 
+                            </div>
+                              <div class="content-details">
+                            <div class="java">
+                                <div class="portfolio-item">
+                                   <img src="images/portfolio.png" alt=""> 
+                                   <p class="portfolio-title">
+                                   JavaScript De Funciones
+                                   </p>
+                                   <p class="portfolio-desc">
+                                    Aqui les voy a mostrar algunos de mis trabajos que he elaborado en javascript con funcion flecha en este caso
+                                    les voy a enseñar como hizo la funcion flecha pra sumar,sacar promedio,numero mayor,etc.
+                                   </p>
+                                   <a href="https://github.com/andreyillo/resumen-poo/tree/master/FUNCIONES">&rarr; Ver Funciones</a>
+                                </div>
+                                </div> 
+                    
+                            </div>
+                            <div class="content-details">
+                            <div class="java">
+                                <div class="portfolio-item">
+                                   <img src="images/portfolio.png" alt=""> 
+                                   <p class="portfolio-title">
+                                   JavaScript De Poo
+                                   </p>
+                                   <p class="portfolio-desc">
+                                    Aqui les voy a mostrar otro metodo orientado en poo utilizando variables var y for tambien incluyendo algunos ejercicios
+                                    tales como sumar,dividir,restar,etc.
+                                   </p>
+                                   <a href="https://github.com/andreyillo/resumen-poo/tree/master/POO">&rarr; Ver Poo</a>
+                                </div>
+                                </div> 
+                            </div>
+                            </div>
+                    
+    
                     <!-- CONTENIDO DEL MANUAL -->
                     <div class="content content-blog" id="blog">
                         <div class="content-header">
@@ -204,7 +260,7 @@
                                     <p class="post-desc">
                                     Se trata de una guía que ayuda a entender el funcionamiento de algo, o bien que educa a sus lectores acerca de un tema de forma ordenada y concisa.
                                     </p>
-                                    <a href="http://localhost/andres_lozano/portafolio/usuario/usuario.php">&rarr; Ver Pasos Manual Usuario</a>
+                                    <a href="../portafolio/usuario/usuario.php">&rarr; Ver Pasos Manual Usuario</a>
                                 </div>
                             </div>
                               <div class="content-header">
@@ -217,7 +273,7 @@
                                     <p class="post-desc">
                                     es el conjunto de información que nos dice qué hacen los sistemas, cómo lo hacen y para quién lo hacen
                                     </p>
-                                    <a href="http://localhost/andres_lozano/portafolio/software/software.php">&rarr; Ver Pasos Manual Software</a>
+                                    <a href="../portafolio/software/software.php">&rarr; Ver Pasos Manual Software</a>
                                 </div>
                             </div>
                             </div>

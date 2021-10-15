@@ -16,7 +16,7 @@
 	$resultado = $sentencia->execute([$matricula,$marca,$color,$tipo, $num]);
 
 	if ($resultado === TRUE) {
-		header('Location: index.php');
+		header('Location: ../vista/index.php');
 	}else{
 		echo "Error";
 	}

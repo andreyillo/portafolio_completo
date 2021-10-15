@@ -20,7 +20,7 @@
             <div class="container__nav">
                 <nav id="nav">
                     <ul>
-                        <li><a href="http://localhost/andres_lozano/portafolio/index.php" class="select">Portafolio Inicio</a></li>
+                        <li><a href="../portafolio/index.php" class="select">Portafolio Inicio</a></li>
                     </ul>
                 </nav>
                 <div class="btn__menu" id="btn_menu"><i class="fas fa-bars"></i></div>
@@ -48,7 +48,9 @@
                     </div>
                     <div class="info__description">
                     <h5>Nombre Del Sitema Del Sistema A Implantar.</h5>
-                        <p>.</p>
+                        <p>Lo primero que necesitas es identificar qué necesitas. Y eso no es tarea fácil. Las empresas suelen combinar 
+                        distintos procesos de importancia que deben funcionar como la seda, y resulta muy útil preguntar a cada departamento
+                        cuáles son sus necesidades, en qué pierden más tiempo.</p>
                        
                     </div>
                 </div>
@@ -59,7 +61,9 @@
                     </div>
                     <div class="info__description">
                     <h5> Describir El Nombre.</h5>
-                        <p>.</p>
+                        <p>Un problema de investigación científica es siempre un problema de conocimiento(ausencia odeficiencia) que reconoce distintas fuentes
+                            (entre ellos los problemas prácticos u operativos).El propósito último de toda investigación es incrementar o mejorar nuestros
+                            conocimientos teóricos .</p>
                         
                     </div>
                 </div>
@@ -70,7 +74,8 @@
                     </div>
                     <div class="info__description">
                     <h5>Equipo Encargado Del Sistema.</h5>
-                        <p>.</p>
+                        <p>Es por ello que los roles dentro de un equipo de programación deben ser lo más dedicados posible. Obviamente, dependiendo del tamaño 
+                        de la aplicación, del tiempo y de los recursos disponibles, el equipo podrá ser de un tamaño u otro.</p>
                        
                     </div>
                 </div>
@@ -91,7 +96,7 @@
         </div>
         <div class="info__description">
         <h5> Nombre Del Personal Encargado.</h5>  
-        <p> .</p>
+        <p> Sin importar la industria, la capacidad de gestionar con eficacia y motivar a los colaboradores es una de las habilidades más importantes que un gerente debe tener en el mundo profesional.</p>
             
         </div>
     </div>
@@ -102,7 +107,8 @@
         </div>
         <div class="info__description">
         <h5>Resumen Administrativo.</h5>
-        <p>.</p>
+        <p>se presenta un panorama de la evolución y el estado actual del derecho administrativo desde tres aproximaciones: el régimen jurídico de las herramientas de gestión y organización de la administración pública,
+         tales como la contratación, las tecnologías de la información y las comunicaciones, el control interno o el talento humano.</p>
           
         </div>
     </div>

@@ -22,8 +22,8 @@
 				<input type="submit" value="REGISTRAR">
 				<br>
 				<br>
-				<a href="http://localhost/andres_lozano/portafolio/index.php">volver al portafolio?</a>
-				<a href="http://localhost/andres_lozano/vista/index.php">Ver el crud</a>
+				<a href="../portafolio/index.php">volver al portafolio?</a>
+				<a href="../vista/index.php">Ver el crud</a>
 			</div>
 		</form><!-- form -->
 

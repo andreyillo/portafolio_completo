@@ -20,7 +20,7 @@
             <div class="container__nav">
                 <nav id="nav">
                     <ul>
-                        <li><a href="http://localhost/andres_lozano/portafolio/index.php" class="select">Portafolio Inicio</a></li>
+                        <li><a href="../portafolio/index.php" class="select">Portafolio Inicio</a></li>
                     </ul>
                 </nav>
                 <div class="btn__menu" id="btn_menu"><i class="fas fa-bars"></i></div>
